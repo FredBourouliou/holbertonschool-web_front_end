@@ -194,17 +194,17 @@ a:active {
 }
 
 .nav .nav-link::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--color-white);
+    background-color: var(--color-white);
     width: 0;
     height: 20%;
 }
 
 .nav .nav-item:hover .nav-link::before {
-    background: var(--color-primary);
+    background-color: var(--color-primary);
     width: 100%;
 }
 
